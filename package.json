@@ -1,0 +1,13 @@
+{
+	"name": "mpwx-uni-geo",
+	"version": "1.0.2",
+	"description": "小程序geo-uni框架",
+	"main": "main.js",
+	"scripts": {
+		"lib": "vue-cli-service build --target lib --name kui --dest lib packages/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

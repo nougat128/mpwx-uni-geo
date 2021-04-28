@@ -1,0 +1,109 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/components/uview-ui_1.8.3/components/u-$1/u-$1.vue",
+			"^uni-(.*)": "@/components/uni-ui_1.2.10/uni-$1/uni-$1.vue",
+			"^ge-(.*)": "@/components/ge-mobile-ui/ui/$1/$1.vue"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTitleText": "测试",
+		"navigationBarBackgroundColor": "#298df8",
+		"navigationBarTextStyle": "#fff",
+		"enablePullDownRefresh": false,
+		"disableScroll": false
+	},
+	"pages": [
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+				"path": "pages/demo/demo",
+				"style": {
+					"navigationBarTitleText": "样式示例"
+				}
+			},
+		{
+			"path": "pages/index/successPage",
+			"style": {
+				"navigationBarTitleText": "温馨提示"
+			}
+		}, {
+			"path": "pages/index/errorPage",
+			"style": {
+				"navigationBarTitleText": "温馨提示"
+			}
+		}, {
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "鄂家园",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/login/serviceRules",
+			"style": {
+				"navigationBarTitleText": "服务协议"
+			}
+		}, {
+			"path": "pages/login/enterCommunity",
+			"style": {
+				"navigationBarTitleText": "进入社区"
+			}
+		}, {
+			"path": "pages/login/selectRole",
+			"style": {
+				"navigationBarTitleText": "选择身份"
+			}
+		}, {
+			"path": "pages/login/selectAddress",
+			"style": {
+				"navigationBarTitleText": "选择地址"
+			}
+		}, {
+			"path": "pages/login/selectRoom",
+			"style": {
+				"navigationBarTitleText": "选择房屋"
+			}
+		}, {
+			"path": "pages/login/confirmIdentity",
+			"style": {
+				"navigationBarTitleText": "社区信息"
+			}
+		}, {
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/my/propertyIndex",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/my/myApplyInfo",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/my/registration",
+			"style": {
+				"navigationBarTitleText": "居住登记"
+			}
+		}, {
+			"path": "pages/my/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}
+	]
+
+
+}

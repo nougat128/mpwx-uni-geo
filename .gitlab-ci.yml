@@ -1,0 +1,14 @@
+sonarqube-check:
+  image:
+    name: hanlyjiang/sonar-scanner-cli-zhcn
+    entrypoint: [""]
+  variables:
+    SONAR_TOKEN: "$SONAR_TOKEN"
+    SONAR_HOST_URL: "$SONAR_HOST_URL"
+  stage: test
+  tags:
+    - sonarqube
+  script:
+    - sonar-scanner -Dsonar.projectKey=$SONAR_PROJECT_KEY -Dsonar.projectBaseDir=. -Dsonar.java.source=1.8 -Dsonar.java.binaries=. -Dsonar.sources=pages
+  only:
+    - develope
